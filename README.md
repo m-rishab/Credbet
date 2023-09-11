@@ -5,11 +5,11 @@ Credbet-A is developed to streamline the loan approval process by automating the
 ## FEATURES
 
 -  Predicts loan approval or rejection based on historical data.
--- Utilizes machine learning algorithms such as logistic regression, decision trees, or random forests.
--- Provides a user-friendly interface for inputting applicant information.
--- Generates reports and visualizations for better decision understanding.
--- Customizable threshold settings for approval decisions.
--- Easily integrates with existing financial systems.
+-  Utilizes machine learning algorithms such as logistic regression, decision trees, or random forests.
+-  Provides a user-friendly interface for inputting applicant information.
+-  Generates reports and visualizations for better decision understanding.
+-  Customizable threshold settings for approval decisions.
+-   asily integrates with existing financial systems.
 
 ## Future Scope
 
