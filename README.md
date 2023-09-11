@@ -13,10 +13,10 @@ Credbet-A is developed to streamline the loan approval process by automating the
 
 ## Future Scope
 
-## Advanced Machine Learning Models: While the current system may use traditional machine learning algorithms like logistic regression and decision trees, there's room for improvement by incorporating more advanced techniques such as deep learning (neural networks), ensemble methods, and reinforcement learning. These models can potentially improve prediction accuracy.
+ - Advanced Machine Learning Models: While the current system may use traditional machine learning algorithms like logistic regression and decision trees, there's room for improvement by incorporating more advanced techniques such as deep learning (neural networks), ensemble methods, and reinforcement learning. These models can potentially improve prediction accuracy.
 
-## Real-time Data Integration: Currently, the system is designed to work with historical data. Expanding it to integrate with real-time data sources, such as credit bureau data and financial market data, can make the loan approval process more dynamic and responsive.
+ - Real-time Data Integration: Currently, the system is designed to work with historical data. Expanding it to integrate with real-time data sources, such as credit bureau data and financial market data, can make the loan approval process more dynamic and responsive.
 
-# Explainable AI (XAI): Implementing explainable AI techniques can provide transparency into why a loan application was approved or denied. This is crucial for regulatory compliance and building trust with users.
+ - Explainable AI (XAI): Implementing explainable AI techniques can provide transparency into why a loan application was approved or denied. This is crucial for regulatory compliance and building trust with users.
 
-## Risk Assessment Modules: Enhance the system by adding modules that assess different types of risks associated with loans, including credit risk, operational risk, and market risk. This would provide a more comprehensive risk assessment for lenders.
+- Risk Assessment Modules: Enhance the system by adding modules that assess different types of risks associated with loans, including credit risk, operational risk, and market risk. This would provide a more comprehensive risk assessment for lenders.
