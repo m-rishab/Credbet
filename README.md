@@ -1,6 +1,6 @@
 # OVERVIEW
 
-Credbet-A is developed to streamline the loan approval process by automating the decision-making process based on a set of predefined criteria. It reduces human bias and enhances the efficiency and accuracy of loan approval decisions. The system is built using Python and various machine learning libraries.
+Credbet is developed to streamline the loan approval process by automating the decision-making process based on a set of predefined criteria. It reduces human bias and enhances the efficiency and accuracy of loan approval decisions. The system is built using Python and various machine learning libraries.
 
 ## FEATURES
 
