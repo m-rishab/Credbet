@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='prediction.css') }}">
+    <title>Credbet - Prediction</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="prediction-container">
+        <div class="prediction-card">
+            <h2>Prediction Form</h2>
+            <form action="{{ url_for('predict') }}" method="POST">
+                <div class="card-row">
+                    <div class="card-column">
+                        <div class="mb-3">
+                            <label for="gender" class="form-label">Gender</label>
+                            <select class="form-select" id="gender" name="gender" aria-label="Select gender">
+                                <option selected>-- Select gender --</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="married" class="form-label">Married Status</label>
+                            <select class="form-select" id="married" name="married" aria-label="Select married status">
+                                <option selected>-- Select married status --</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="dependents" class="form-label">Dependents</label>
+                            <select class="form-select" id="dependents" name="dependents" aria-label="Select dependents">
+                                <option selected>-- Select dependents --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3+">3+</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="education" class="form-label">Education</label>
+                            <select class="form-select" id="education" name="education" aria-label="Select education">
+                                <option selected>-- Select education --</option>
+                                <option value="Graduate">Graduate</option>
+                                <option value="Not Graduate">Not Graduate</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="card-column">
+                        <div class="mb-3">
+                            <label for="employed" class="form-label">Self Employed</label>
+                            <select class="form-select" id="employed" name="employed" aria-label="Select Self Employed">
+                                <option selected>-- Select Self Employed --</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="credit" class="form-label">Credit History</label>
+                            <select class="form-select" id="credit" name="credit" aria-label="Select Credit History">
+                                <option selected>-- Select Credit History --</option>
+                                <option value="1.000000">1.000000</option>
+                                <option value="0.000000">0.000000</option>
+                                <option value="0.842199">0.842199</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="area" class="form-label">Property Area</label>
+                            <select class="form-select" id="area" name="area" aria-label="Select Property Area">
+                                <option selected>-- Select Property Area --</option>
+                                <option value="Semiurban">Semiurban</option>
+                                <option value="Urban">Urban</option>
+                                <option value="Rural">Rural</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="ApplicantIncome" class="form-label">Enter Applicant Income</label>
+                            <input type="text" class="form-control-input" id="ApplicantIncome" name="ApplicantIncome" placeholder="Applicant Income">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-row">
+                    <div class="card-column">
+                        <div class="mb-3">
+                            <label for="CoapplicantIncome" class="form-label">Enter Coapplicant Income</label>
+                            <input type="text" class="form-control-input" id="CoapplicantIncome" name="CoapplicantIncome" placeholder="Coapplicant Income">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="LoanAmount" class="form-label">Enter Loan Amount</label>
+                            <input type="text" class="form-control-input" id="LoanAmount" name="LoanAmount" placeholder="Loan Amount">
+                        </div>
+                    </div>
+
+                    <div class="card-column">
+                        <div class="mb-3">
+                            <label for="Loan_Amount_Term" class="form-label">Enter Loan Amount Term</label>
+                            <input type="text" class="form-control-input" id="Loan_Amount_Term" name="Loan_Amount_Term" placeholder="Loan Amount Term">
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="form-control-submit-button">MAKE PREDICTION</button>
+            </form>
+        </div>
+
+        <div class="result-container">
+            <p align="center"><b>{{prediction_text}}</b></p>
+            <div class="result" align="center">        
+                <!-- Display prediction result here -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Connect with me: <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></p>
+        <p>Email me: rish.mishra130801@gmail.com</p>
+    </footer>
+</body>
+</html>

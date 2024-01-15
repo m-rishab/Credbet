@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Credbet - Home</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="/static/image/Logo.png" alt="Credbet Logo">
+            <h1>Credbet</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('predict') }}">Prediction</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="background-image">
+        <div class="content-wrapper">
+            <section class="description-container">
+                <h2>Loan Prediction Approval</h2>
+                <p>
+                    LOANS are the major requirement of the modern world. By this only, Banks get a major part of the total profit. It is beneficial for students to manage their education and living expenses, and for people to buy any kind of luxury like houses, cars, etc.
+
+                    But when it comes to deciding whether the applicant’s profile is relevant to be granted with a loan or not, Banks have to look after many aspects.
+
+                    So, here I used Machine Learning with Python to ease their work and predict whether the candidate’s profile is relevant or not using key features like Marital Status, Education, Applicant Income, Credit History, etc.
+                </p>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>Connect with me: <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></p>
+        <p>Email me: rish.mishra130801@gmail.com</p>
+    </footer>
+</body>
+</html>

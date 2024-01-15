@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0; /* Adjust the color as needed */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: flex;
+    margin-left: 1110px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button{
+    display: flex;
+}
+
+.background-image {
+    position: relative;
+    height: 100vh;
+    background-image: url('/static/image/Background.jpg'); /* Adjust the path as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+.content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.description-container {
+    max-width: 600px;
+    text-align: center;
+}
+
+.description-container h2 {
+    color: #fff; /* Change the color as needed */
+}
+
+.description-container p {
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    font-weight: normal;
+    color: #fff; /* Change the color as needed */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 50px; /* Adjust the size of the logo */
+    margin-right: 10px;
+}
+
+.logo-container h1 {
+    color: #333; /* Change the color as needed */
+    font-size: 24px;
+    margin: 0;
+}
+
+.prediction-button {
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
