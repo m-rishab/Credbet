@@ -12,7 +12,8 @@ The project leverages datasets containing information from past loan applicants,
 
 ### Project Overview
 
-Provide a brief overview of the project approach, focusing on how the Random Forest Classifier is used to make predictions.
+The random forest algorithm improves the flexibility and decision-making capacity of individual trees. It is another machine learning algorithm incorporating the ensemble learning theorem as its foundation, combining results from various decision trees to optimize training. In some use cases of loan and credit risk prediction, some features are more important than the rest or, more specifically, some features whose removal would improve the overall performance. Since we know the fundamentals of decision trees and how they choose features based on information gain, random forests would incorporate these benefits to give superior performance,
+
 
 ## Model Used
 
