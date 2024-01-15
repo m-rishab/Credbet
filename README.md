@@ -30,6 +30,12 @@ The machine learning model employed in this project is the Random Forest Classif
 3. **Click on the "Submit" Button:**
    After filling in the form, click on the "Submit" button to get the prediction.
 
+## DEMO
+
+*DEMO-1*
+
+*DEMO-2*
+
 ## How to Use
 
 1. **Clone the repository:**
