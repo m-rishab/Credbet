@@ -43,7 +43,7 @@ The machine learning model employed in this project is the Random Forest Classif
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/Credbet.git
+   git clone https://github.com/m-rishab/Credbet.git
 
 ### Running the Application
 
