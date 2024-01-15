@@ -8,7 +8,7 @@ The project leverages datasets containing information from past loan applicants,
 
 ## Approach
 
-![Approach](path/to/your/approach.png)
+![Loan](https://github.com/m-rishab/Credbet/assets/113618652/3179477a-c5e1-49c0-aabb-d057cc1e7afc)
 
 ### Project Overview
 
