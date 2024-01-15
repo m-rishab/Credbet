@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 app = Flask(__name__)
-model = pickle.load(open('models/random_forest_model.pkl', 'rb'))
+model = pickle.load(open('models/model.pkl', 'rb'))
 
 def extract_numeric_part(term_str):
     return ''.join(filter(str.isdigit, term_str))
