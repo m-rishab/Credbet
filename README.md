@@ -35,8 +35,8 @@ The machine learning model employed in this project is the Random Forest Classif
 *DEMO-1*
 ![9e82f3a5-90e4-4705-9ad1-36e1d0946ea4](https://github.com/m-rishab/Credbet/assets/113618652/eddc3fdd-387e-4b11-ad1d-db766084002c)
 
-
 *DEMO-2*
+![ff40755f-3305-4be5-ae96-fda68841b2e5](https://github.com/m-rishab/Credbet/assets/113618652/61417b95-5883-4731-810d-fb06e223426b)
 
 ## How to Use
 
